@@ -88,5 +88,5 @@ def run_batch(
 
 
 if __name__ == "__main__":
-    # Start safe: 50000 reviews → ~5000 API calls (cheap)
+    # Total: 49396 reviews → ~5000 API calls
     run_batch(max_rows=None, batch_size=10)
